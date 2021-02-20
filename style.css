@@ -1,0 +1,220 @@
+header {
+  background-color: whitesmoke;
+  background-image: url("images/jimi-tape2.png");
+  background-position: 10% 40%;
+  height: 700px;
+}
+
+h1 {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 10rem;
+  /*border: black solid 1px;*/
+
+  padding-left: 15px;
+  padding-right: 25px;
+  width: auto;
+  display: inline-block;
+}
+
+h2 {
+  /*font-family: "Do Hyeon", sans-serif;*/
+  font-family: "Montserrat Subrayada", sans-serif;
+  margin: 15px;
+  font-size: 3.5rem;
+  color: #ff3ea5ff;
+  background-color: #edff00ff;
+  padding: 0px 15px;
+  border-radius: 1rem;
+}
+
+h3 {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 5rem;
+  display: inline;
+  padding: 10px;
+}
+
+h4 {
+  margin: 0px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.7rem;
+  font-family: "Bodoni Moda", serif;
+}
+
+.service img {
+  width: 99%;
+  /*object-fit: contain;*/
+  border-radius: 1rem;
+  margin-top: 5px;
+}
+
+.about img {
+  width: 99%;
+  /*object-fit: contain;*/
+  border-radius: 1rem;
+  margin-top: 5px;
+}
+
+.shop p {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  font-style: italic;
+  padding-top: 25px;
+  margin: 2px;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+#p-shop {
+  background-color: #ff3ea5ff;
+  padding: 2px;
+  width: auto;
+  border-radius: 1rem;
+}
+
+#tape {
+  margin-left: 100px;
+  margin-right: 0px;
+  background-color: #ff3ea5ff;
+  color: #edff00ff;
+  padding-left: 35px;
+  padding-top: 30px;
+}
+
+#dub {
+  margin-left: 0px;
+  position: relative;
+  right: 5px;
+  background-color: #00a4ccff;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(160, 37, 124, 0.5) /*#a0257c*/;
+  position: relative;
+  bottom: 150px;
+}
+
+main {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #31fe01;
+  margin-top: 10px;
+}
+
+footer h3 {
+  color: #ff04e5;
+}
+
+.box {
+  margin-left: 20px;
+  width: 1000px;
+  background-color: violet;
+  border-radius: 1rem;
+  height: auto;
+}
+
+.box p {
+  background-color: whitesmoke;
+  margin: 2px;
+  padding-left: 5px;
+  padding-bottom: 25px;
+}
+
+.service {
+  height: auto;
+}
+
+.clients-list {
+  columns: 2;
+  background-color: whitesmoke;
+  padding-left: 7px;
+  padding-top: 0px;
+}
+
+.shop li,
+ul,
+h4 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.7rem;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  margin: 3px;
+}
+
+.shop h4 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 2rem;
+  font-weight: 800;
+  border-radius: 1rem;
+  margin: 2px;
+  padding-left: 45px;
+  padding-top: 45px;
+  margin-top: 7px;
+}
+
+.shop .list {
+  margin: 4px;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+h4 a,
+h4 {
+  color: black;
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+/*footer*/
+
+.contact {
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+}
+
+.contact p {
+  padding-left: 1.5rem;
+  margin-left: 1rem;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  color: #ff5c03;
+  font-weight: bold;
+  background-color: whitesmoke;
+  display: block;
+  padding-top: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.legal-notice {
+  padding-right: 3rem;
+  padding-top: 1.5rem;
+}
+
+.legal-notice p {
+  padding-left: 1.5rem;
+  margin-left: 1rem;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  color: #ff5c03;
+  font-weight: bold;
+  background-color: whitesmoke;
+  display: block;
+  padding-top: 0.5rem;
+  border-radius: 0.5rem;
+}
